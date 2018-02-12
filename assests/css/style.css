@@ -1,0 +1,15 @@
+body{
+    background-color: wheat;
+}
+
+header{
+    background-color: #ffffff;
+
+}
+.container{
+    background-image: url(dust_scratches.png);
+}
+
+footer {
+    background-color: #666666;
+}
