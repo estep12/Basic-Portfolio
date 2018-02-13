@@ -3,45 +3,51 @@ body{
 }
 
 .container {
-    background-image: url(./dust_scratches.png);
+    background-image: url(/Users/estephenson12/Desktop/Basic-Portfolio/assests/images/dust_scratches.png);
 }
 
 .header{
     background-color: #ffffff;
-    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     border-color: #cccccc;
 }
 
 #name {
+    font-size: 30px;
     background-color: teal;
     color: #ffffff;
-    padding: 15px;
-    margin-right: 800px;
-    margin-left: 20px;
-    text-align: center;
+    padding: 12px;
+    margin-left: 10%;
+    margin-right: 74%;
+    text-align: left;
+    margin-bottom: 0%;
+
 }
 
 li {
     display: inline;
+    text-decoration: none;
 }
 
 .mainbio{
-    margin: auto
+    margin-right: 50%;
+    margin-left: 10%;
+    display: inherit;
+    width: 40%;
 }
 
-#mainbio{
-    float: left;
-}
  #picofme {
-    display: inline;
+    display: inherit;
     width: 200px;
     height: 300px;
  }
 .pagelinks {
     float: right;
     color: #cccc;
-    font-size: 26px;
+    font-size: 20px;
     text-decoration: none;
+    position: relative;
 
 }
 
@@ -51,15 +57,24 @@ li {
 }
 
 
-#connect{
+.connect{
     float: right;
     display: block;
-    border-style: double;
-    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 90px;
     border: #ffffff;
-    margin-right: 20px;
+    margin-top: 5%;
+    margin-right: 10%;
     background-color:white;
-    padding: 25px;
+    padding: 90px;
+}
+
+
+h2 {
+    text-decoration: underline;
+    color: teal;
+    font-size: 20px;
 }
 
 #links{
