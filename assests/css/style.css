@@ -21,8 +21,8 @@ body{
     background-color: teal;
     color: #ffffff;
     padding: 12px;
-    margin-left: 10%;
-    margin-right: 74%;
+    margin-left: 148px;
+    margin-right: 73%;
     text-align: left;
     margin-bottom: 0%;
 
@@ -30,17 +30,29 @@ body{
 
 .pagelinks {
     float: right;
-    color: #cccc;
-    font-size: 20px;
     text-decoration: none;
     position: relative;
     padding: 32px;
     padding-top: 50px;
-    margin-right: 214px;
-    
-
+    margin-right: 195px;
 }
 
+#about, #contact {
+    text-decoration: none;
+    color: #777777;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: #cccccc;
+    border-style: solid;
+}
+
+#port {
+    text-decoration: none;
+    color: #777777;
+    font-size: 20px;
+    padding-left: 5px;
+}
 
 li {
     display: inline;
@@ -83,7 +95,7 @@ li {
     padding-bottom: 10px;
 }
 
-#about {
+#aboutme {
     text-align: left;
     padding: 20px;
 }
