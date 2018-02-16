@@ -4,7 +4,7 @@ body{
 
 .container {
     background-image: url(../images/dust_scratches.png);
-    padding-bottom: 89px;
+    padding-bottom: 140px;
     padding-top: 25px;
 }
 
@@ -37,7 +37,7 @@ body{
     margin-right: 195px;
 }
 
-#about, #contact {
+#about, #port {
     text-decoration: none;
     color: #777777;
     font-size: 20px;
@@ -47,7 +47,7 @@ body{
     border-style: solid;
 }
 
-#port {
+ #contact{
     text-decoration: none;
     color: #777777;
     font-size: 20px;
@@ -217,7 +217,7 @@ h2 {
 .images {
     display: inline;
     position: relative;
-    padding-top: 20px;
+    padding-top: 30px;
     
 
 }
@@ -265,6 +265,7 @@ h2 {
     padding-top: 10px;
     height: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
     
 }
 
@@ -311,8 +312,6 @@ h2 {
     padding-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    z-index: 1;
-    
 }
 
 
