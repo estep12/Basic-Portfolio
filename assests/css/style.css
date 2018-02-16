@@ -215,26 +215,104 @@ h2 {
 }
 
 .images {
-    display: inline-block;
+    display: inline;
     position: relative;
     padding-top: 20px;
-   
+    
 
 }
 
 #hangman,#rpg,#trivia,#rutgers,#rps{
     width: 250px;
     height: 210px;
+    padding-top: 10px;
     
 }
 
 #hangman, #trivia{
     padding-left: 0;
+    z-index: -1;
 }
 
 #rpg, #rutgers{
     padding-left: 70px;
 
+}
+
+#hangmantext{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    width: 250px;
+    height: 30px;
+    margin-top: 155px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+#rpgtext{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 324px;
+    width: 250px;
+    text-align: center;
+    margin-top: 155px;
+    padding-top: 10px;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#triviatext{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    width: 250px;
+    height: 30px;
+    margin-top: 155px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#rutgerstext{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    width: 250px;
+    height: 30px;
+    margin-left: 324px;
+    margin-top: 155px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#rpstext{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0px;
+    width: 250px;
+    height: 30px;
+    margin-top: 155px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    z-index: 1;
+    
 }
 
 
