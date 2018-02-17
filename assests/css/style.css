@@ -1,9 +1,9 @@
 body{
     align-items: center;
+    background-image: url(../images/dust_scratches.png);
 }
 
 .container {
-    background-image: url(../images/dust_scratches.png);
     padding-bottom: 140px;
     padding-top: 25px;
 }
